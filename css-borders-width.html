@@ -1,0 +1,28 @@
+<html>
+<!-- if we give one px to border-width the it applies to all sides but if we give two measurements first one is
+for top and bottom then another one is for left and right but if we give 4 measurements then will be applied 
+like top right bottom left-->
+<style>
+p.one{
+border-style:double;
+border-width:5px;
+}
+p.two{
+border-style:double;
+border-width:10px;
+}
+p.three{
+border-style:double;
+border-width:5px 7px;
+}
+p.four{
+border-style:dashed;
+border-width:6px 9px 12px 15px;
+}
+
+</style>
+<p class=one>hai hello</p>
+<p class=two>hai hello</p>
+<p class=three>hai hello</p>
+<p class=four>hai hello</p>
+</html>
